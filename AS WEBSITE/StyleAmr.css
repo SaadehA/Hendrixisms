@@ -1,0 +1,48 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+@font-face 
+{
+    font-family: 'Robo'; 
+    src: url('Robo\ Girls.ttf')
+}
+body
+{
+scroll-behavior: smooth;
+background-color: black;
+}
+img
+{
+max-width: 100px;
+max-height: 100px;
+float: left;
+}
+.navbar {
+    overflow: hidden;
+  }
+  .navbar a {
+    float:left;
+    color: #f2f2f2;
+    text-align:left;
+    padding: 40px 16px;
+    text-decoration: none;
+    font: 15px 'Robo\ Girls', sans-serif;
+  }
+
+  .navbar a:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+.navbar span
+{
+    color: #ff0000;;
+    float:unset;
+}
